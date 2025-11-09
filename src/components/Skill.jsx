@@ -25,8 +25,8 @@ const Skill = () => {
     ];
 
     return (
-        <div className=" justify-items-center bg-slate-900 py-5">
-            <h1 className="roboto text-white font-extrabold text-4xl ">Skills <GiSkills className=" inline-block text-green-500 -mt-3"/></h1>
+        <div className="bg-slate-900 py-5">
+            <h1 className="roboto text-white text-center font-extrabold text-4xl ">Skill <GiSkills className=" inline-block text-green-500 -mt-3"/></h1>
                <hr className="border-green-700 border mt-5 w-[80%] m-auto" />
             <ul className="sm:space-x-5 sm:flex sm:justify-around">
                 {Skills.map((item,index) =>

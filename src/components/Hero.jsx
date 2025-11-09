@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="bg-slate-900 ">
             {/* Navigation */}
            <Navigation/>
-            <div className="py-5">
+            <div className="py-5 justify-items-center">
                 {/* Text content */}
                 <div className="flex justify-center text-center text-white mx-5">
                     <div>
@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
                 {/* contact */}
                 <hr className="border-green-700 border mt-5 w-[80%] m-auto" />
-                <div className="roboto justify-items-center text-center m-auto text-white  py-5 sm:flex sm:justify-around">  
+                <div className="roboto text-center text-white  py-5 sm:flex sm:justify-around">  
                     <div className="space-y-2 bg-slate-800 border-gray-700 border mt-5 w-60 py-3 rounded-md shadow-xl">
                         <h1 className="ubuntu-nomal text-xl font-semibold text-green-400"><MdEmail className=" inline-block text-2xl -mt-1"/> Email </h1>
                         <p className="text-sm">chounjohn002@gmail.com</p>
