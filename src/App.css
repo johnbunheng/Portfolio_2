@@ -1,0 +1,20 @@
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style:normal;
+}
+.ubuntu-nomal {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+}
+.fira-mono-regular {
+  font-family: "Fira Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
